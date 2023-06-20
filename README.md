@@ -55,3 +55,5 @@ Intel三代CPU及之前的ThinkPad很多具备ExpressCard接口，大部分都�
 ## 进阶玩法
 
 除了PCIe，ExpressCard还提供了一个USB2.0接口，由于缺少5V供电，3.3V电压功率也不充裕，这个USB2.0接口不太适合外接使用，只能连接一些小功率的USB设备，比如罗技的优联接收器。EC2M2转接卡通过焊盘形式引出了USB接口，54mm宽度外壳也有足够的空间容纳优联接收器。
+
+![ExpressCard_USB_PAD](image/230620-ExpressCard_USB_PAD.png "ExpressCard_USB_PAD")
