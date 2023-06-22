@@ -6,7 +6,19 @@ EC2M2: ExpressCard 34mm or 54mm to M.2 NVMe 2230 or 2242 SSD adapter card.
 
 ExpressCard详细介绍请参考[WikiPedia](https://en.wikipedia.org/wiki/ExpressCard)，这个接口提供了一条PCIe通道和一个USB2.0接口，以及3.3V电源。Sandy Bridge时代的笔记本普遍不具备USB3.0接口，所以ExpressCard接口的PCIe通道经常用来扩展USB3.0接口，由于ExpressCard接口只提供了3.3V电源，功率也不大，升压到5V以后功率进一步损失，这些ExpressCard的USB3.0扩展卡供电普遍不佳，不加外部供电的情况下，对外输出电流不超过1A，很难带动移动硬盘这样的大功率负载。
 
-Ivy Bridge时代USB3.0接口成为笔记本标配，ExpressCard转USB3.0也逐渐失去了价值，这个接口逐渐被闲置。那个时代，硬盘的主流协议还是SATA，无论传统2.5寸还是小型化的mSATA，M.2接口那时候还叫作NGFF，协议也是SATA。随着时间的推移，NVMe逐渐成为主流，当前硬盘的主流已经是M.2接口2280外形NVMe协议，也有很多2230和2242外形的短硬盘，这些短硬盘可以完美放入34mm和54mm的ExpressCard卡。
+Ivy Bridge时代USB3.0接口成为笔记本标配，ExpressCard转USB3.0也逐渐失去了价值，这个接口逐渐被闲置。那个时代，硬盘的主流协议还是SATA，无论传统2.5寸还是小型化的mSATA，M.2接口那时候还叫作NGFF，协议也是SATA。随着时间的推移，NVMe逐渐成为主流，当前硬盘的主流已经是M.2接口2280外形NVMe协议，也有很多2230和2242外形的短硬盘，这些短硬盘可以完美放入34mm和54mm的ExpressCard卡，布局如下：
+
+![正面背面合并图](image/230622-正面背面合并图.png "正面背面合并图")
+
+## 主要特征
+
+- 支持2230和2242外形NVMe协议短硬盘
+- 支持34mm和54mm两种ExpressCard外壳
+- PCIe协议直连，无性能损失，不发热（SSD自身还是会发热的）
+- 大板设计，强度高散热好
+- 创新的M.2固定方式，不使用螺丝，降低总高度
+- 带SSD工作指示灯，工作电流不足1mA，省电不刺眼
+- 通过焊盘引出ExpressCard的USB 2.0接口
 
 ## 安装方法
 
