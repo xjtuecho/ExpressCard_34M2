@@ -8,8 +8,6 @@ ExpressCard详细介绍请参考[WikiPedia](https://en.wikipedia.org/wiki/Expres
 
 Ivy Bridge时代USB3.0接口成为笔记本标配，ExpressCard转USB3.0也逐渐失去了价值，这个接口逐渐被闲置。那个时代，硬盘的主流协议还是SATA，无论传统2.5寸还是小型化的mSATA，M.2接口那时候还叫作NGFF，协议也是SATA。随着时间的推移，NVMe逐渐成为主流，当前硬盘的主流已经是M.2接口2280外形NVMe协议，也有很多2230和2242外形的短硬盘，这些短硬盘可以完美放入34mm和54mm的ExpressCard卡，布局如下：
 
-![正面背面合并图](image/230622-正面背面合并图.png "正面背面合并图")
-
 ![正面背面实际图](image/230623-正面背面实际图.jpg "正面背面实际图")
 
 ![安装2230固态硬盘](image/230623-安装2230固态硬盘.jpg "安装2230固态硬盘")
