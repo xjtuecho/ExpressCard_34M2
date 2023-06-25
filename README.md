@@ -70,6 +70,12 @@ Intel三代CPU及之前的ThinkPad很多具备ExpressCard接口，大部分都�
 
 ## 进阶玩法
 
+### 扩展USB设备
+
 除了PCIe，ExpressCard还提供了一个USB2.0接口，由于缺少5V供电，3.3V电压功率也不充裕，这个USB2.0接口不太适合外接使用，只能连接一些小功率的USB设备，比如罗技的优联接收器。EC2M2转接卡通过焊盘形式引出了USB接口，54mm宽度外壳也有足够的空间容纳优联接收器。
 
 ![ExpressCard_USB_PAD](image/230620-ExpressCard_USB_PAD.png "ExpressCard_USB_PAD")
+
+### 充分利用ExpressCard插槽挡板
+
+EC2M2转接卡使用USB转接卡外壳，尾部还留有USB的开口，不是十分美观，时间长了也容易有异物进入。笔记本的ExpressCard插槽有一个挡板，没有ExpressCard设备插入时这个挡板会盖住插槽的洞。可以考虑将ExpresCard外壳剪短5mm左右，将卡彻底插入，插槽的挡板会立起来挡住插槽的洞口，这样会更美观一些。副作用是ExpressCard设备插拔会变得非常麻烦，需要拆掉掌托才能将ExpressCard取出，这里只是提供一种思路，普通用户并不推荐这样做。
