@@ -76,6 +76,12 @@ Intel三代CPU及之前的ThinkPad很多具备ExpressCard接口，大部分都�
 
 ![ExpressCard_USB_PAD](image/230620-ExpressCard_USB_PAD.png "ExpressCard_USB_PAD")
 
-### 充分利用ExpressCard插槽挡板
+### 裸PCBA直接安装
 
-EC2M2转接卡使用USB转接卡外壳，尾部还留有USB的开口，不是十分美观，时间长了也容易有异物进入。笔记本的ExpressCard插槽有一个挡板，没有ExpressCard设备插入时这个挡板会盖住插槽的洞。可以考虑将ExpresCard外壳剪短5mm左右，将卡彻底插入，插槽的挡板会立起来挡住插槽的洞口，这样会更美观一些。副作用是ExpressCard设备插拔会变得非常麻烦，需要拆掉掌托才能将ExpressCard取出，这里只是提供一种思路，普通用户并不推荐这样做。
+EC2M2转接卡使用USB转接卡外壳，尾部还留有USB的开口，不是十分美观，时间长了也容易有异物进入。笔记本的ExpressCard插槽有一个挡板，没有ExpressCard设备插入时这个挡板会盖住插槽的洞口。在不安装34mm或者54mm外壳的情况下，EC2M2转接卡也是可以直接安装的。使用一把镊子将挡板按下，将转接卡放入正确的位置，再使用另外一把镊子将转接卡压入即可，按压时能感觉到弹簧的弹力，按压到位以后听到"哒"的一声表明安装到位，将镊子松开以后挡板会自动复位封闭ExressCard插槽的洞口。实测不安装金属外壳时，取出转接卡只能用镊子拔出，继续按压不会复位卡扣。想复位的话，只能压入另外一张带外壳的ExpressCard卡，然后按压以后取出。
+
+安装要点：
+
+- 使用高温胶带保护转接卡和SSD上的裸露金属，防止它们与ExpressCard插槽外壳接触短路
+- 取出转接卡只能用镊子拔出，继续按压不会复位ExpressCard插槽卡扣
+- 复位ExpressCard插槽卡扣，只能压入另外一张带外壳的ExpressCard卡，然后按压以后取出
