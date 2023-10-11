@@ -33,7 +33,9 @@ Ivy Bridge时代USB3.0接口成为笔记本标配，ExpressCard转USB3.0也逐�
 3. 盖上EC2M2卡金属上盖，保证两侧卡口完全咬合
 4. 将安装完成的EC2M2卡推入笔记本的ExpressCard插槽，34mm版本注意不要插反
 
-Win10系统无需驱动，Win7需要安装[KB2990941](driver/Win7_NVMe_Driver/x64/Windows6.1-KB2990941-v3-x64.msu)和[KB3087873](driver/Win7_NVMe_Driver/x64/Windows6.1-KB3087873-v2-x64.msu)两个补丁才能识别NVMe硬盘。由于驱动限制，Win7下无法查看硬盘的SMART信息，Win10下一切正常，推荐使用Win10。
+Win10系统无需驱动，Win7需要安装[KB2990941](driver/Win7_NVMe_Driver/x64/Windows6.1-KB2990941-v3-x64.msu)和[KB3087873](driver/Win7_NVMe_Driver/x64/Windows6.1-KB3087873-v2-x64.msu)两个补丁才能识别NVMe硬盘。由于微软的NVMe驱动限制，Win7下无法查看硬盘的SMART信息，Win8/8.1也有类似问题，Win10下一切正常，推荐使用Win10。
+
+如果你的电脑比较老安装Win10有困难，或者对Win7情有独钟，想体验完整的NVMe固态硬盘也有办法，思路是使用第三方厂家比如三星或者Intel的NVMe驱动，安装这个[Intel NVMe驱动修改版](driver/Intel_Win7_NVMe_Driver_Mod)即可。该修改版驱动来自网友文章[关于Win7\8\8.1上NVMe固态读不到smart信息的解决方案参考](https://tieba.baidu.com/p/6365965925)，向作者表示感谢。如果Win7已经安装微软的NVMe驱动，这个驱动是无法安装的，需要先卸载`KB2990941`和`KB3087873`两个补丁，控制面板->卸载程序->查看已安装的更新，搜索两个补丁卸载后重启即可，无需按照原贴方法直接删改文件。
 
 ![SN520在X230上CDI信息](image/230620-SN520在X230上CDI信息.png "230620-SN520在X230上CDI信息")
 
